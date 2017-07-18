@@ -7,7 +7,9 @@ include: "*.view"
 include: "*.dashboard"
 
 
-explore: users {}
+explore: users {
+  hidden: yes
+}
 
 # explore: order_items {
 #   join: inventory_items {
